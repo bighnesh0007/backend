@@ -130,7 +130,11 @@ function Dashboard() {
                     </div>
                 </section>
             </div>
+            <div className="not-member">
+          Not a member?  <Link to='/register' className="nav-link">Register</Link>
         </div>
+        </div>
+        
     );
 }
 
